@@ -9,8 +9,8 @@ import twilio from 'twilio';
 import { sendEmail } from '../utils/sendEmail.js';
 import { sixToken } from '../utils/tokenGenerator.js';
 
-const accountSid = process.env.ACCOUNT_SID;
-const authToken = process.env.AUTH_TOKEN;
+const accountSid = 'ACfb3831620e73d05c6b700282d8651d73';
+const authToken = '8d78901b3400a6c425e7120b93f9de38';
 const client = twilio(accountSid, authToken);
 
 // Register user
