@@ -1,0 +1,25 @@
+{
+    "_id": {
+        "$oid": "641bceb812067dc5d5d9de73"
+    },
+    "email": "Email",
+    "isEmailVerified": true,
+    "password": "$2b$10$rNhRoLNuG0Ul8QdpsA0ORORa4EZXRpeaVgQKmvVy0rFLrpKrOuSne",
+    "role": "admin",
+    "status": "Pending",
+    "phone": "0123456789",
+    "isPhoneVerified": true,
+    "createdAt": {
+        "$date": {
+            "$numberLong": "1679543992159"
+        }
+    },
+    "updatedAt": {
+        "$date": {
+            "$numberLong": "1679913725639"
+        }
+    },
+    "__v": 0,
+    "phoneOTP": "",
+    "emailOTP": ""
+}
